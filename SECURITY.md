@@ -8,3 +8,14 @@ This package parses and renders message templates with caller-supplied
 values. It performs no network access, file I/O, or reflection over caller
 types beyond documented value kinds. Untrusted message strings are an input
 worth fuzzing; the corpus and fuzz targets live in the test suite.
+
+## Input bounds
+
+- Message nesting is limited to 100 levels; deeper nesting returns a typed
+  parse error (covered by a dedicated test and the fuzz target).
+- The parser is linear-time in message length with no regex backtracking.
+- Output length is bounded by the message plus the caller's own values; the
+  package adds no amplification beyond the message structure itself (plural
+  bodies render at most one branch per level).
+- FuzzParse covers arbitrary byte input; CI runs it for 30s per change and
+  the corpus grows with any found input.

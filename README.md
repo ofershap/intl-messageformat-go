@@ -1,11 +1,13 @@
 <div align="center">
   <img src="assets/hero.png" alt="intl-messageformat-go: the message {count, plural, one {# item} other {# items}} renders identically in react-intl, Angular, Crowdin and Go" width="100%">
   <h1>intl-messageformat-go</h1>
-  <p><strong>ICU MessageFormat 1 for Go, verified byte-for-byte against intl-messageformat (FormatJS) 12.1.5 on 5,505 differential checks.</strong></p>
+  <p><strong>Render your existing FormatJS / react-intl message catalog in Go, with the same output.</strong></p>
 
 </div>
 
-Your product already has its messages in MessageFormat: react-intl, FormatJS, Angular's i18n, Crowdin and Lokalise all speak it. When part of the stack runs Go (APIs, email renderers, notification workers, CLIs), those messages could not render there. Porting them to Go templates means rewriting every plural rule by hand and losing the translator-facing syntax your localization pipeline depends on. This package renders the same messages in Go with the same output: plural categories from generated CLDR 48 data, locale-correct numbers, dates and rich text, checked against the reference implementation on the corpus described in [Compatibility evidence](#compatibility-evidence).
+Your product already has its messages in MessageFormat: react-intl, FormatJS, Angular's i18n, Crowdin and Lokalise all speak it. When part of the stack runs Go (APIs, email renderers, notification workers, CLIs), those messages could not render there. Porting them to Go templates means rewriting every plural rule by hand and losing the translator-facing syntax your localization pipeline depends on.
+
+This package renders the same messages in Go with the same output: plural categories from generated CLDR 48 data, locale-correct numbers, dates and rich text. "Same output" applies to the supported subset below, pinned byte-for-byte against the reference implementation on a differential corpus. Constructs outside that subset are not approximated: they fail with typed errors instead of silently wrong text.
 
 ```bash
 go get github.com/ofershap/intl-messageformat-go
@@ -24,8 +26,8 @@ out, _ := mf.Format(map[string]any{"count": 5})
 - Simple arguments: `Hello {name}`
 - `select`, `plural`, `selectordinal` with `offset:` and `=N` exact selectors
 - `#` inside plural bodies (formats value minus offset)
-- Nested messages (plural inside select, and so on)
-- Numbers: `{n, number}`, `integer`, `percent`, and named custom formats via `WithNumberFormats` (currency included)
+- Nested messages (plural inside select, and so on, bounded to 100 levels)
+- Numbers: `{n, number}`, `integer`, `percent`, and currency through a named custom format: `{n, number, currency}` plus `WithNumberFormats(map[string]NumberFormatSpec{"currency": {Style: "currency", Currency: "USD"}})`
 - Dates and times: `{d, date, full|long|medium|short}` and the same for `time`, at UTC, with the exact style mapping FormatJS 12 uses (which is not `Intl.DateTimeFormat`'s `dateStyle`/`timeStyle`)
 - Rich-text tags through `TagFunc`: `Click <b>{what}</b>`
 - FormatJS apostrophe quoting (`'{'`, `''`, `'#'`)
@@ -34,25 +36,32 @@ out, _ := mf.Format(map[string]any{"count": 5})
 
 Valid MessageFormat that uses these returns a descriptive error instead of wrong output:
 
-- Number and date/time skeletons (`::currency/USD`, `::yyyyMMdd`)
+- Number and date/time skeletons (`{n, number, ::currency/USD}`, `{d, date, ::yyyyMMdd}`). Note the difference from the supported custom-format currency above: the `::` skeleton syntax is what is unsupported.
 - User-supplied date pattern strings (`{d, date, yyyy-MM-dd}`). FormatJS 12 silently ignores these and falls back to medium; this package tells you instead.
-- Non-Gregorian default calendars
+- Date and time formatting for locales whose default calendar is not Gregorian (9 locales: fa, fa-AF, ps, th, ckb-IR, lrc, mzn, shn-TH, and resolved subtags). Plural and number formatting for these locales still works.
 - Time zones other than UTC: `time.Time` values are rendered at UTC. Convert before formatting for other zones.
 
-## Compatibility evidence
+## Locale, calendar and time zone boundaries
 
-Every behavior above is pinned by golden fixtures generated from the reference implementation and compared exactly:
+Plural and number formatting resolve every CLDR 48 locale (766), following the usual ICU fallback chain (region to language to root), so an unknown or unsupported tag falls back rather than failing. Date and time formatting covers the same locales on the Gregorian calendar only, at UTC, as listed above.
 
-| Corpus | Checks | Reference |
-| --- | --- | --- |
-| Messages (parser + formatter) | 855 | intl-messageformat 12.1.5 |
-| Numbers | 2,700 (450 values x 6 styles) | Intl.NumberFormat |
-| Dates and times | 720 (90 instants x 8 styles) | Intl.DateTimeFormat |
-| Plural categories | 1,230 | Intl.PluralRules |
+<details>
+<summary><strong>Compatibility evidence: 5,505 differential checks against the reference runtime</strong></summary>
 
-Reference environment: Node v22.23.4, ICU 78.3, Unicode 17.0, CLDR 48.0. The fixture generator, its pinned lockfile and all fixtures live in `testdata/`, so the corpus is reproducible. "Verified" means byte-identical output on this corpus across the 15 exercised locales (en, he, ar, ar-EG, ru, pl, cy, ja, zh, ko, fr, de, es, pt-BR, hi), not a claim of universal equivalence on every possible message.
+Every supported behavior is pinned by golden fixtures generated from the reference implementation and compared exactly:
+
+| Corpus | Checks | Breakdown | Reference |
+| --- | --- | --- | --- |
+| Messages (parser + formatter) | 855 | 57 case/variant combinations x 15 locales | intl-messageformat 12.1.5 |
+| Numbers | 2,700 | 30 values x 15 locales x 6 styles | Intl.NumberFormat |
+| Dates and times | 720 | 6 fixed UTC instants x 15 locales x 8 styles | Intl.DateTimeFormat |
+| Plural categories | 1,230 | 41 values x 15 locales x cardinal + ordinal | Intl.PluralRules |
+
+Reference environment: Node v22.23.4, ICU 78.3, Unicode 17.0, CLDR 48.0. The fixture generator, its pinned npm lockfile and all fixtures live in `testdata/`, so the corpus is reproducible. "Verified" means byte-identical output on this corpus across the 15 exercised locales (en, he, ar, ar-EG, ru, pl, cy, ja, zh, ko, fr, de, es, pt-BR, hi), not a claim of universal equivalence on every possible message.
 
 The differential approach also documents where JavaScript itself is surprising: V8 plural-category behavior on exponent-form numbers, FormatJS 12 silently dropping user date patterns, and its use of `timeZoneName: 'short'` for both long and full time styles are covered by tests.
+
+</details>
 
 <details>
 <summary><strong>FAQ: ICU MessageFormat in Go, FormatJS on the server, react-intl message reuse</strong></summary>
@@ -67,7 +76,7 @@ It implements the same MessageFormat 1 grammar (tags included) and is verified a
 Not in v1. Skeleton styles return a typed error. Use `{n, number, integer|percent}` or a named custom format via `WithNumberFormats` for currency.
 
 **Which locales and calendars?**
-Plural, number and Gregorian date/time data for 766 locales from CLDR 48.0. Locales whose default calendar is not Gregorian return a typed error rather than wrong dates.
+Plural, number and Gregorian date/time data for 766 locales from CLDR 48.0. Date/time formatting for locales whose default calendar is not Gregorian returns a typed error rather than wrong dates.
 
 **What about time zones?**
 Values render at UTC, matching a `timeZone: 'UTC'` reference setup. Convert your `time.Time` before formatting for other zones.

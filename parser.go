@@ -46,9 +46,14 @@ type (
 	node interface{}
 )
 
+// maxNestingDepth bounds argument/tag recursion so pathological nesting
+// returns a typed error instead of exhausting the stack.
+const maxNestingDepth = 100
+
 type parser struct {
-	src []rune
-	pos int
+	src   []rune
+	pos   int
+	depth int
 }
 
 func parseMessage(src string) ([]node, error) {
@@ -66,6 +71,9 @@ func parseMessage(src string) ([]node, error) {
 // parseNodes reads until end or the closing brace/tag that owns this level.
 // closing: 0 = top level, '}' = inside braces, '<' = inside a tag.
 func (p *parser) parseNodes(inPlural bool, closing rune) ([]node, error) {
+	if p.depth > maxNestingDepth {
+		return nil, fmt.Errorf("messageformat: message nested too deeply (limit %d)", maxNestingDepth)
+	}
 	var nodes []node
 	var lit strings.Builder
 	flush := func() {
@@ -88,7 +96,9 @@ func (p *parser) parseNodes(inPlural bool, closing rune) ([]node, error) {
 			return nodes, nil
 		case r == '{':
 			flush()
+			p.depth++
 			n, err := p.parseArg()
+			p.depth--
 			if err != nil {
 				return nil, err
 			}
@@ -103,7 +113,10 @@ func (p *parser) parseNodes(inPlural bool, closing rune) ([]node, error) {
 				p.pos++
 			}
 		case r == '<':
-			if n, ok, err := p.parseTag(); err != nil {
+			p.depth++
+			n, ok, err := p.parseTag()
+			p.depth--
+			if err != nil {
 				return nil, err
 			} else if ok {
 				flush()

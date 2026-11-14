@@ -234,6 +234,19 @@ func (m *MessageFormat) formatNumberArg(f float64, style string) (string, error)
 }
 
 func (m *MessageFormat) formatDateTimeArg(t time.Time, isTime bool, style string) (string, error) {
+	// Locales whose default calendar is not Gregorian would silently render
+	// wrong dates from the gregorian-only data; fail clearly instead.
+	loc := strings.ReplaceAll(m.locale, "-", "_")
+	for l := loc; l != ""; {
+		if nonGregorianDefaultLocales[l] {
+			return "", fmt.Errorf("messageformat: locale %q defaults to a non-Gregorian calendar, which is not supported; use a Gregorian-calendar locale", m.locale)
+		}
+		if idx := strings.LastIndex(l, "_"); idx > 0 {
+			l = l[:idx]
+		} else {
+			break
+		}
+	}
 	t = t.UTC()
 	if style == "" {
 		if isTime {
