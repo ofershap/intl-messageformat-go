@@ -1,0 +1,30 @@
+# intl-messageformat-go
+
+ICU MessageFormat 1 renderer for Go, byte-verified against intl-messageformat (FormatJS) 12.1.5 on 5,505 differential checks. No dependencies, no cgo; CLDR 48 data for 766 locales compiled in.
+
+## Install
+
+go get github.com/ofershap/intl-messageformat-go
+
+## API
+
+- messageformat.New(locale, message, ...Option) (*MessageFormat, error): parses eagerly; returns parse errors.
+- (*MessageFormat).Format(map[string]any) (string, error): renders; missing values, bad types and unsupported styles return typed errors.
+- Option: WithNumberFormats(map[string]NumberFormatSpec) for named custom number formats (Style: decimal|integer|percent|currency, Currency required for currency).
+- TagFunc func(parts []string) string: value type for rich-text tags such as <b>.
+
+## Supported
+
+Simple args; select / plural / selectordinal with offset and =N; #; nesting; number (default, integer, percent, custom formats); date and time at UTC in full/long/medium/short styles using FormatJS 12's exact style mapping; rich-text tags; FormatJS apostrophe quoting.
+
+## Exclusions (typed errors)
+
+:: skeletons (number and date/time); user date pattern strings; non-Gregorian default calendars; non-UTC zones (values render at UTC).
+
+## Value types
+
+Numbers: float64/float32/int/int64/int32/json.Number/numeric strings. Dates: time.Time or RFC3339 strings. Simple args: string, bool, numbers.
+
+## Testing
+
+Differential corpus in testdata/: 855 message fixtures vs intl-messageformat 12.1.5, 2,700 number checks vs Intl.NumberFormat, 720 date/time checks vs Intl.DateTimeFormat, 1,230 plural checks vs Intl.PluralRules. Reference: Node v22.23.4, ICU 78.3, CLDR 48.0. FuzzParse covers parser robustness.

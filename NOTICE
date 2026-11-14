@@ -1,0 +1,10 @@
+intl-messageformat-go
+Copyright (c) 2026 Ofer Shapira
+
+This product includes data derived from Unicode CLDR 48.0
+(https://cldr.unicode.org), used under the Unicode License v3
+(https://www.unicode.org/license.txt).
+
+Compatibility testing is performed against intl-messageformat (FormatJS)
+12.1.5 (MIT License, (c) FormatJS contributors). No FormatJS source code is
+included in this package.
