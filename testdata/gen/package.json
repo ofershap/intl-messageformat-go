@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
+    "cldr-core": "^48.0.0",
+    "cldr-dates-full": "^48.0.0",
+    "cldr-numbers-full": "^48.0.0",
     "intl-messageformat": "12.1.5"
   }
 }
