@@ -25,8 +25,35 @@ func resolveDateData(locale string) *dateLocaleData {
 	return &dateLocaleData{}
 }
 
-// formatDateValue and formatTimeValue implement the MF1 date/time types with
-// the four CLDR style presets (full/long/medium/short) at UTC, mirroring
+// resolveFormatjsStyle finds the MF1 style pattern for a locale. MF1
+// {d, date, short} etc. do NOT use Intl dateStyle/timeStyle presets: FormatJS
+// maps them to fixed component bags, so the patterns live in formatjsStyles
+// (resolved via Node Intl at generation time).
+func resolveFormatjsStyle(locale, key string) (string, *dateLocaleData) {
+	d := resolveDateData(locale)
+	locale = strings.ReplaceAll(locale, "-", "_")
+	for l := locale; l != ""; {
+		if styles, ok := formatjsStyles[l]; ok {
+			if pat, ok2 := styles[key]; ok2 {
+				return pat, d
+			}
+		}
+		if idx := strings.LastIndex(l, "_"); idx > 0 {
+			l = l[:idx]
+		} else {
+			break
+		}
+	}
+	if styles, ok := formatjsStyles["en"]; ok {
+		if pat, ok2 := styles[key]; ok2 {
+			return pat, d
+		}
+	}
+	return "", d
+}
+
+// formatDateValue and formatTimeValue implement the four CLDR style presets
+// (full/long/medium/short) at UTC, mirroring
 // Intl.DateTimeFormat({dateStyle|timeStyle, timeZone:'UTC'}).
 func formatDateValue(t time.Time, style, locale string) (string, error) {
 	d := resolveDateData(locale)
