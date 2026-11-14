@@ -234,17 +234,26 @@ func (m *MessageFormat) formatNumberArg(f float64, style string) (string, error)
 }
 
 func (m *MessageFormat) formatDateTimeArg(t time.Time, isTime bool, style string) (string, error) {
-	// Locales whose default calendar is not Gregorian would silently render
-	// wrong dates from the gregorian-only data; fail clearly instead.
-	loc := strings.ReplaceAll(m.locale, "-", "_")
-	for l := loc; l != ""; {
-		if nonGregorianDefaultLocales[l] {
-			return "", fmt.Errorf("messageformat: locale %q defaults to a non-Gregorian calendar, which is not supported; use a Gregorian-calendar locale", m.locale)
+	// Calendar guard: this package renders Gregorian dates only. An explicit
+	// -u-ca- extension decides first (no alias guessing: anything other than
+	// gregory/gregorian fails); without one, the locale's default calendar
+	// (Node Intl resolvedOptions, generated data) decides, inherited down the
+	// region-to-language chain. Silent Gregorian rendering never happens.
+	if cal := unicodeCalendarExtension(m.locale); cal != "" {
+		if cal != "gregory" && cal != "gregorian" {
+			return "", fmt.Errorf("messageformat: locale %q requests calendar %q, which is not supported; only Gregorian dates are rendered", m.locale, cal)
 		}
-		if idx := strings.LastIndex(l, "_"); idx > 0 {
-			l = l[:idx]
-		} else {
-			break
+	} else {
+		loc := strings.ReplaceAll(m.locale, "-", "_")
+		for l := loc; l != ""; {
+			if nonGregorianDefaultLocales[l] {
+				return "", fmt.Errorf("messageformat: locale %q defaults to a non-Gregorian calendar, which is not supported; request gregory explicitly (-u-ca-gregory) or use a Gregorian-calendar locale", m.locale)
+			}
+			if idx := strings.LastIndex(l, "_"); idx > 0 {
+				l = l[:idx]
+			} else {
+				break
+			}
 		}
 	}
 	t = t.UTC()
@@ -274,6 +283,24 @@ func (m *MessageFormat) formatDateTimeArg(t time.Time, isTime bool, style string
 		// medium); this port returns a typed error instead so callers notice.
 		return "", fmt.Errorf("messageformat: user date patterns are not supported (style %q); use full, long, medium or short", style)
 	}
+}
+
+// unicodeCalendarExtension extracts the BCP 47 -u-ca-<calendar> value, or ""
+// when the locale carries no calendar extension.
+func unicodeCalendarExtension(locale string) string {
+	lower := strings.ToLower(locale)
+	for _, sep := range []string{"-u-ca-", "_u_ca_"} {
+		i := strings.Index(lower, sep)
+		if i < 0 {
+			continue
+		}
+		tok := lower[i+len(sep):]
+		if j := strings.IndexAny(tok, "-_"); j >= 0 {
+			tok = tok[:j]
+		}
+		return tok
+	}
+	return ""
 }
 
 // toNumber accepts the numeric types JSON callers actually hold.

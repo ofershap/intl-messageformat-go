@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/hero.png" alt="intl-messageformat-go: the message {count, plural, one {# item} other {# items}} renders identically in react-intl, Angular, Crowdin and Go" width="100%">
   <h1>intl-messageformat-go</h1>
-  <p><strong>Render your existing FormatJS / react-intl message catalog in Go, with the same output.</strong></p>
+  <p><strong>Need your FormatJS / react-intl translations to render in Go without rewriting them? This package renders the same catalog, same output, in pure Go.</strong></p>
 
 </div>
 
@@ -38,7 +38,7 @@ Valid MessageFormat that uses these returns a descriptive error instead of wrong
 
 - Number and date/time skeletons (`{n, number, ::currency/USD}`, `{d, date, ::yyyyMMdd}`). Note the difference from the supported custom-format currency above: the `::` skeleton syntax is what is unsupported.
 - User-supplied date pattern strings (`{d, date, yyyy-MM-dd}`). FormatJS 12 silently ignores these and falls back to medium; this package tells you instead.
-- Date and time formatting for locales whose default calendar is not Gregorian (9 locales: fa, fa-AF, ps, th, ckb-IR, lrc, mzn, shn-TH, and resolved subtags). Plural and number formatting for these locales still works.
+- Date and time formatting for non-Gregorian calendars, whether the locale's default (9 locales: fa, fa-AF, ps, th, ckb-IR, lrc, mzn, shn-TH, and inherited subtags) or explicitly requested (`en-u-ca-islamic`). Requesting Gregorian explicitly (`fa-u-ca-gregory`) works. Plural and number formatting are calendar-independent and unaffected.
 - Time zones other than UTC: `time.Time` values are rendered at UTC. Convert before formatting for other zones.
 
 ## Locale, calendar and time zone boundaries

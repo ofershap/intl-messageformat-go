@@ -14,8 +14,10 @@ worth fuzzing; the corpus and fuzz targets live in the test suite.
 - Message nesting is limited to 100 levels; deeper nesting returns a typed
   parse error (covered by a dedicated test and the fuzz target).
 - The parser is linear-time in message length with no regex backtracking.
-- Output length is bounded by the message plus the caller's own values; the
-  package adds no amplification beyond the message structure itself (plural
-  bodies render at most one branch per level).
+- Output length: each placeholder on the rendered path expands to exactly one
+  formatted value, and plural/select bodies render at most one branch per
+  level, so output length is O(message_length x longest formatted value).
+  Repeated placeholders repeat the caller's value, which is caller-controlled;
+  no internal amplification beyond that factor exists.
 - FuzzParse covers arbitrary byte input; CI runs it for 30s per change and
   the corpus grows with any found input.
