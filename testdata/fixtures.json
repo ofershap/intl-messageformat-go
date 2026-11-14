@@ -1,0 +1,8609 @@
+{
+ "meta": {
+  "generatedAt": "2026-11-14T11:43:38.420Z",
+  "node": "v22.23.4",
+  "icu": "78",
+  "intlMessageFormat": "12.1.5",
+  "cldr": null,
+  "locales": [
+   "en",
+   "he",
+   "ar",
+   "ru",
+   "pl",
+   "cy",
+   "ja",
+   "zh",
+   "ko",
+   "fr",
+   "de",
+   "es",
+   "pt-BR",
+   "hi",
+   "ar-EG"
+  ],
+  "count": 855
+ },
+ "fixtures": [
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "en",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "he",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "ar",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "ru",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "pl",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "cy",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "ja",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "zh",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "ko",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "fr",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "de",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "es",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "hi",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-arg",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "Hello {name}",
+   "values": {
+    "name": "Dana"
+   },
+   "expected": "Hello Dana"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "en",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "he",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "de",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "es",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "simple-two-args",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{first} and {second}",
+   "values": {
+    "first": "A",
+    "second": "B"
+   },
+   "expected": "A and B"
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "en",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "he",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "ar",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "ru",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "pl",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "cy",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "ja",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "zh",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "ko",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "fr",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "de",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "es",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "hi",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "missing-arg",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "Hello {name}",
+   "values": {},
+   "error": "MissingValueError: The intl string context variable \"name\" was not provided to the string \"Hello {name}\""
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "en",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "he",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "de",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "es",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-basic",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "female"
+   },
+   "expected": "She replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "en",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "he",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "de",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "es",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "select-other-fallback",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{gender, select, male {He} female {She} other {They}} replied",
+   "values": {
+    "gender": "x"
+   },
+   "expected": "They replied"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "en",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "he",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "ar",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "ru",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "pl",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "cy",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "ja",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "zh",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "ko",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "fr",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "de",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "es",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "pt-BR",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1,5 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "2 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "0 item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "11 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "100 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "hi",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "1.5 items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "١ item"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "٢ items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "٠ items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 5
+   },
+   "expected": "٥ items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 4,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 11
+   },
+   "expected": "١١ items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 5,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 100
+   },
+   "expected": "١٠٠ items"
+  },
+  {
+   "id": "plural-basic",
+   "variant": 6,
+   "locale": "ar-EG",
+   "message": "{count, plural, one {# item} other {# items}}",
+   "values": {
+    "count": 1.5
+   },
+   "expected": "١٫٥ items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "en",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "en",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "en",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "he",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "he",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "he",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "1 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "de",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "de",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "de",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "es",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "es",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "es",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "7 items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "No items"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "One item"
+  },
+  {
+   "id": "plural-exact-match",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{count, plural, =0 {No items} one {One item} other {# items}}",
+   "values": {
+    "count": 7
+   },
+   "expected": "٧ items"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "en",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "en",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "en",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "en",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "he",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "he",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "he",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "he",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "ar",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "ru",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "pl",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "cy",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and 1 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "ja",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and 1 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "zh",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and 1 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "ko",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "fr",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "de",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "de",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "de",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "de",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "es",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "es",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "es",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "es",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "hi",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and 3 others"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 0
+   },
+   "expected": "Nobody"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 1
+   },
+   "expected": "You"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "You and one other"
+  },
+  {
+   "id": "plural-offset",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "{count, plural, offset:1 =0 {Nobody} =1 {You} one {You and one other} other {You and # others}}",
+   "values": {
+    "count": 4
+   },
+   "expected": "You and ٣ others"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1st"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2nd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3rd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "en",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22nd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "he",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "ar",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "ru",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "pl",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1st"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2nd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3rd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4rd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "cy",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "ja",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "zh",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "ko",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1st"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "fr",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "de",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "es",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "pt-BR",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "1st"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "2nd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "3nd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "4rd"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "11th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "hi",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "22th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 1
+   },
+   "expected": "١th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 2
+   },
+   "expected": "٢th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 3
+   },
+   "expected": "٣th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 4
+   },
+   "expected": "٤th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 4,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 11
+   },
+   "expected": "١١th"
+  },
+  {
+   "id": "selectordinal",
+   "variant": 5,
+   "locale": "ar-EG",
+   "message": "{pos, selectordinal, one {#st} two {#nd} few {#rd} other {#th}}",
+   "values": {
+    "pos": 22
+   },
+   "expected": "٢٢th"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "en",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "he",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "de",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "es",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "3 as"
+  },
+  {
+   "id": "nested-plural-in-select",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{kind, select, a {{n, plural, one {one a} other {# as}}} other {{n, plural, one {one b} other {# bs}}}}",
+   "values": {
+    "kind": "a",
+    "n": 3
+   },
+   "expected": "٣ as"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "en",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: ‎-3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "he",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: ‎-3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "ar",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1 234 567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "ru",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1 000 000 000 000 000 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1 234 567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "pl",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1 000 000 000 000 000 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "cy",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "ja",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "zh",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1,234,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "ko",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,000,000,000,000,000,000,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1 234 567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "fr",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1 000 000 000 000 000 000 000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1.234.567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "de",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1.000.000.000.000.000.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1.234.567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "es",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1.000.000.000.000.000.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 1.234.567,891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3,142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 1.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0,5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "pt-BR",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1.000.000.000.000.000.000.000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: 12,34,567.891"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: 0"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: -3.142"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: 10,00,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: 0.5"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "hi",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: 1,00,00,00,00,00,00,00,00,00,000"
+  },
+  {
+   "id": "number-default",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1234567.891
+   },
+   "expected": "Total: ١٬٢٣٤٬٥٦٧٫٨٩١"
+  },
+  {
+   "id": "number-default",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0
+   },
+   "expected": "Total: ٠"
+  },
+  {
+   "id": "number-default",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": -3.14159
+   },
+   "expected": "Total: ؜-٣٫١٤٢"
+  },
+  {
+   "id": "number-default",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1000000
+   },
+   "expected": "Total: ١٬٠٠٠٬٠٠٠"
+  },
+  {
+   "id": "number-default",
+   "variant": 4,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "Total: ٠٫٥"
+  },
+  {
+   "id": "number-default",
+   "variant": 5,
+   "locale": "ar-EG",
+   "message": "Total: {n, number}",
+   "values": {
+    "n": 1e+21
+   },
+   "expected": "Total: ١٬٠٠٠٬٠٠٠٬٠٠٠٬٠٠٠٬٠٠٠٬٠٠٠٬٠٠٠"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "en",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "en",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "en",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "en",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "en",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "he",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "he",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "he",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "he",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "he",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "‎-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "ar",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "ar",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "‎-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1 235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1 234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "ru",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "ru",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "pl",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "pl",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "cy",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "cy",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "ja",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "ja",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "zh",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "zh",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "ko",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "ko",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1 235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1 234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "fr",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "fr",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "de",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1.235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "de",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1.234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "de",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "de",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "de",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "es",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "es",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "es",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "es",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "es",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1.235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1.234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "pt-BR",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "1,235"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "1,234"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "hi",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "4"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "hi",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "-3"
+  },
+  {
+   "id": "number-integer",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.5
+   },
+   "expected": "١٬٢٣٥"
+  },
+  {
+   "id": "number-integer",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 1234.4
+   },
+   "expected": "١٬٢٣٤"
+  },
+  {
+   "id": "number-integer",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 2.5
+   },
+   "expected": "٣"
+  },
+  {
+   "id": "number-integer",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": 3.5
+   },
+   "expected": "٤"
+  },
+  {
+   "id": "number-integer",
+   "variant": 4,
+   "locale": "ar-EG",
+   "message": "{n, number, integer}",
+   "values": {
+    "n": -2.5
+   },
+   "expected": "؜-٣"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "en",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "he",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42‎%‎"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42 %"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42 %"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "de",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42 %"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "es",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42 %"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "42%"
+  },
+  {
+   "id": "number-percent",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{n, number, percent}",
+   "values": {
+    "n": 0.42
+   },
+   "expected": "٤٢٪؜"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "en",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "en",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "en",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "he",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "‏1,234.56 ‏$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "he",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "‏0.50 ‏$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "he",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "‏‎-9.99 ‏$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "‏1,234.56 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "‏0.50 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "‏‎-9.99 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "1 234,56 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "0,50 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-9,99 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "1234,56 USD"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "0,50 USD"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-9,99 USD"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "US$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "US$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-US$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "US$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "US$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-US$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "US$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "US$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-US$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "1 234,56 $US"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "0,50 $US"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-9,99 $US"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "de",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "1.234,56 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "de",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "0,50 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "de",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-9,99 $"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "es",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "1234,56 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "es",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "0,50 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "es",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-9,99 US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "US$ 1.234,56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "US$ 0,50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-US$ 9,99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "$1,234.56"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "$0.50"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "-$9.99"
+  },
+  {
+   "id": "number-currency",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 1234.56
+   },
+   "expected": "‏١٬٢٣٤٫٥٦ US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": 0.5
+   },
+   "expected": "‏٠٫٥٠ US$"
+  },
+  {
+   "id": "number-currency",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{n, number, currency}",
+   "values": {
+    "n": -9.99
+   },
+   "expected": "؜-‏٩٫٩٩ US$"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "en",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "he",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "ar",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "ru",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "pl",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "cy",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "ja",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "zh",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "ko",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "fr",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "de",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "es",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1,005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2,675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0,125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0,375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1,001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "pt-BR",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123,457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "1.005"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "2.675"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "0.125"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "0.375"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "1.001"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "hi",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "123.457"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.005
+   },
+   "expected": "١٫٠٠٥"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 1,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 2.675
+   },
+   "expected": "٢٫٦٧٥"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 2,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.125
+   },
+   "expected": "٠٫١٢٥"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 3,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 0.375
+   },
+   "expected": "٠٫٣٧٥"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 4,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 1.0005
+   },
+   "expected": "١٫٠٠١"
+  },
+  {
+   "id": "number-rounding-boundary",
+   "variant": 5,
+   "locale": "ar-EG",
+   "message": "{n, number}",
+   "values": {
+    "n": 123.4565
+   },
+   "expected": "١٢٣٫٤٥٧"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "en",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 11/15/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "he",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15.11.2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "ar",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15‏/11‏/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "ru",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15.11.2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "pl",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15.11.2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "cy",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15/11/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "ja",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 2024/11/15"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "zh",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 2024/11/15"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "ko",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 2024. 11. 15."
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "fr",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15/11/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "de",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15.11.2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "es",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15/11/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15/11/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "hi",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives 15/11/2024"
+  },
+  {
+   "id": "date-default",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "Arrives {d, date}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "Arrives ١٥‏/١١‏/٢٠٢٤"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "en",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "11/15/24 | Nov 15, 2024 | November 15, 2024 | Friday, November 15, 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "he",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.24 | 15 בנוב׳ 2024 | 15 בנובמבר 2024 | יום שישי, 15 בנובמבר 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15‏/11‏/24 | 15 نوفمبر 2024 | 15 نوفمبر 2024 | الجمعة، 15 نوفمبر 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.24 | 15 нояб. 2024 г. | 15 ноября 2024 г. | пятница, 15 ноября 2024 г."
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.24 | 15 lis 2024 | 15 listopada 2024 | piątek, 15 listopada 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/24 | 15 Tach 2024 | 15 Tachwedd 2024 | Dydd Gwener, 15 Tachwedd 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "24/11/15 | 2024年11月15日 | 2024年11月15日 | 2024年11月15日金曜日"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "24/11/15 | 2024年11月15日 | 2024年11月15日 | 2024年11月15日星期五"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "24. 11. 15. | 2024년 11월 15일 | 2024년 11월 15일 | 2024년 11월 15일 금요일"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/24 | 15 nov. 2024 | 15 novembre 2024 | vendredi 15 novembre 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "de",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.24 | 15. Nov. 2024 | 15. November 2024 | Freitag, 15. November 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "es",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/24 | 15 nov 2024 | 15 de noviembre de 2024 | viernes, 15 de noviembre de 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/24 | 15 de nov. de 2024 | 15 de novembro de 2024 | sexta-feira, 15 de novembro de 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/24 | 15 नव॰ 2024 | 15 नवंबर 2024 | शुक्रवार, 15 नवंबर 2024"
+  },
+  {
+   "id": "date-styles",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{d, date, short} | {d, date, medium} | {d, date, long} | {d, date, full}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "١٥‏/١١‏/٢٤ | ١٥ نوفمبر ٢٠٢٤ | ١٥ نوفمبر ٢٠٢٤ | الجمعة، ١٥ نوفمبر ٢٠٢٤"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "en",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "6:00 PM | 6:00:00 PM | 6:00:00 PM GMT+2 | 6:00:00 PM GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "he",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT‎+2‎ | 18:00:00 GMT‎+2‎"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "6:00 م | 6:00:00 م | 6:00:00 م غرينتش+2 | 6:00:00 م غرينتش+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | GMT+2 18:00:00 | GMT+2 18:00:00"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "오후 6:00 | 오후 6:00:00 | 오후 6시 0분 0초 GMT+2 | 오후 6시 0분 0초 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 UTC+2 | 18:00:00 UTC+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "de",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "es",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "18:00 | 18:00:00 | 18:00:00 GMT+2 | 18:00:00 GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "6:00 pm | 6:00:00 pm | 6:00:00 pm GMT+2 | 6:00:00 pm GMT+2"
+  },
+  {
+   "id": "time-styles",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{t, time, short} | {t, time, medium} | {t, time, long} | {t, time, full}",
+   "values": {
+    "t": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "٦:٠٠ م | ٦:٠٠:٠٠ م | ٦:٠٠:٠٠ م غرينتش+٢ | ٦:٠٠:٠٠ م غرينتش+٢"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "en",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "11/15/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "he",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15‏/11‏/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024. 11. 15."
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "de",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "es",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-explicit-pattern",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{d, date, yyyy-MM-dd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "١٥‏/١١‏/٢٠٢٤"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "en",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "11/15/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "he",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15‏/11‏/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024. 11. 15."
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "de",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "es",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024"
+  },
+  {
+   "id": "date-pattern-names",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{d, date, EEEE d MMMM yyyy}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "١٥‏/١١‏/٢٠٢٤"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "en",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "he",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "ar",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "ru",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "pl",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "cy",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "ja",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "zh",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "ko",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "fr",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "de",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "es",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "hi",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "rich-text",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "Click <b>{what}</b> now",
+   "values": {
+    "what": "here"
+   },
+   "expected": "Click <B>here</B> now"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "en",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "he",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "ar",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "ru",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "pl",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "cy",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "ja",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "zh",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "ko",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "fr",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "de",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "es",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "hi",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-quoting",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "It''s '{count}' {count, plural, one {item} other {items}}",
+   "values": {
+    "count": 2
+   },
+   "expected": "It's {count} items"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "en",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "he",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "ar",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "ru",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "pl",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "cy",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "ja",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "zh",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "ko",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "fr",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "de",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "es",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "hi",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "apostrophe-literal-brace",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "'{'{x}'}'",
+   "values": {
+    "x": "v"
+   },
+   "expected": "{v}"
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "en",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "he",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "‏5.00 ‏$",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "‏5.00 US$",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "5,00 $",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "5,00 USD",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "US$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "US$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "US$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "5,00 $US",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "de",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "5,00 $",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "es",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "5,00 US$",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "US$ 5,00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "$5.00",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-number-skeleton",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{n, number, ::currency/USD}",
+   "values": {
+    "n": 5
+   },
+   "expected": "‏٥٫٠٠ US$",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "en",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "11/15/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "he",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "ar",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15‏/11‏/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "ru",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "pl",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "cy",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "ja",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "zh",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024/11/15",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "ko",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "2024. 11. 15.",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "fr",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "de",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15.11.2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "es",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "pt-BR",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "hi",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "15/11/2024",
+   "jsFormattedAnyway": true
+  },
+  {
+   "id": "unsupported-date-skeleton",
+   "variant": 0,
+   "locale": "ar-EG",
+   "message": "{d, date, ::yyyyMMdd}",
+   "values": {
+    "d": "2024-11-15T16:00:00.000Z"
+   },
+   "expected": "١٥‏/١١‏/٢٠٢٤",
+   "jsFormattedAnyway": true
+  }
+ ]
+}
